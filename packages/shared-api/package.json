@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/shared-api",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./axios": "./axios.ts",
+    "./query": "./query.ts",
+    "./crud": "./curd.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.69.0",
+    "axios": "^1.8.4"
+  },
+  "devDependencies": {
+    "@workspace/typescript-config": "workspace:*",
+    "typescript": "^5.8.2"
+  }
+}
